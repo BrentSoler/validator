@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "prettier"
+  ],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": ["warn"],
+    "prettier/no-trailing-spaces": ["off"],
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "no-unneeded-ternary": ["off"],
+    "func-names": "off",
+    "object-shorthand": "off",
+    "@typescript-eslint/no-unused-vars": ["warn"]
+  }
+}
