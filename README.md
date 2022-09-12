@@ -1,7 +1,7 @@
 
 # Validnode
 
-A lightweight object validator for node
+A lightweight object validator for nodeTS
 
 
 ## Install
